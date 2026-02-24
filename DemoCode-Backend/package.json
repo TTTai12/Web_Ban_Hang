@@ -1,6 +1,10 @@
 {
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
